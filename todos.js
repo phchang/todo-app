@@ -1,3 +1,7 @@
+require("./todos.css");
+
+var Backbone = require('backbone');
+
 // An example Backbone application contributed by
 // [Jérôme Gravel-Niquet](http://jgn.me/). This demo uses a simple
 // [LocalStorage adapter](backbone-localstorage.html)
