@@ -2,6 +2,13 @@ require("./todos.css");
 
 var Backbone = require('backbone');
 
+// this seems to include it into the bundle.js, but want to figure out why, and if this is the right way
+var BackboneLocalStorage = require('backbone.localstorage');
+
+/**
+ * todo: require() needed for external dependencies (e.g. json2, jquery, etc)?
+ */
+
 // An example Backbone application contributed by
 // [Jérôme Gravel-Niquet](http://jgn.me/). This demo uses a simple
 // [LocalStorage adapter](backbone-localstorage.html)

@@ -11,6 +11,9 @@ module.exports = {
         new webpack.ProvidePlugin({
             jQuery: 'jquery',
             $: 'jquery'
+        }),
+        new webpack.ProvidePlugin({
+            _: 'underscore'
         })
     ],
     module: {
@@ -23,7 +26,7 @@ module.exports = {
         moduleDirectories: ['node_modules']
     }
 };
-
+// todo: want to understand the ProvidePlugin thingy better
 /*
 
  var _ = require('underscore');
